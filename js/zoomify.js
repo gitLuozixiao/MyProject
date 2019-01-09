@@ -5,7 +5,7 @@
  *
  * (c) 2015 Indri Muska - MIT
  */
-;(function($){
+(function($){
 	
 	// initialization
 	Zoomify = function (element, options) {
