@@ -335,23 +335,12 @@ body {
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.03) 0 4px 24px;
       }
-    }
-    .illustration {
-      margin-bottom: 100px;
-      width: 400px;
       .note {
-        padding: 2px 20px;
+        padding: 10px 16px;
         font-size: 14px;
         color: #333;
         font-weight: 500;
-        background: #fff000;
-      }
-      img {
-        width: 100%;
-        height: auto;
-        box-shadow: rgba(0, 0, 0, 0.05) 0 4px 24px;
-        border-radius: 12px;
-        margin-bottom: 6px;
+        background: #eeeeee;
       }
     }
     .page {
@@ -448,7 +437,7 @@ body {
     }
     .lists {
       justify-content: space-around;
-      .cell, .illustration {
+      .cell {
         margin-right: 20px;
         margin-left: 20px;
       }
@@ -503,9 +492,6 @@ body {
       margin-top: 80px;
       .cell{
         margin-right: 80px;
-      }
-      .illustration {
-        margin-right: 100px;
       }
       img {
         //border: solid 8px white;

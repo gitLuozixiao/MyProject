@@ -249,21 +249,12 @@ body {
         width: 100%;
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.03) 0 4px 24px; }
-    .template .lists .illustration {
-      margin-bottom: 100px;
-      width: 400px; }
-      .template .lists .illustration .note {
-        padding: 2px 20px;
+      .template .lists .cell .note {
+        padding: 10px 16px;
         font-size: 14px;
         color: #333;
         font-weight: 500;
-        background: #fff000; }
-      .template .lists .illustration img {
-        width: 100%;
-        height: auto;
-        box-shadow: rgba(0, 0, 0, 0.05) 0 4px 24px;
-        border-radius: 12px;
-        margin-bottom: 6px; }
+        background: #eeeeee; }
     .template .lists .page {
       width: 100%;
       margin-bottom: 80px; }
@@ -330,7 +321,7 @@ body {
       font-size: 30px; }
     .template .lists {
       justify-content: space-around; }
-      .template .lists .cell, .template .lists .illustration {
+      .template .lists .cell {
         margin-right: 20px;
         margin-left: 20px; }
       .template .lists .page img {
@@ -367,8 +358,6 @@ body {
       margin-top: 80px; }
       .template .lists .cell {
         margin-right: 80px; }
-      .template .lists .illustration {
-        margin-right: 100px; }
       .template .lists .page img {
         width: 900px; }
     .template .part {
