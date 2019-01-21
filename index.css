@@ -17,15 +17,15 @@ body {
 
 .homepage {
   background-color: white; }
-  .homepage .info {
+  .homepage .page-title {
     margin: 40px auto;
     text-align: center; }
-    .homepage .info .avatar {
+    .homepage .page-title .avatar {
       margin: 0 auto;
       height: 80px;
       width: 576px;
       background: url("images/title.png") no-repeat center center/contain; }
-    .homepage .info .name {
+    .homepage .page-title .name {
       font-size: 24px;
       color: #4a4a4a;
       font-weight: lighter;
@@ -265,7 +265,7 @@ body {
 @media only screen and (max-width: 800px) {
   .homepage {
     padding: 40px 16px; }
-    .homepage .info .avatar {
+    .homepage .page-title .avatar {
       height: 40px;
       width: 288px; }
     .homepage .title {
