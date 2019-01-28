@@ -101,6 +101,9 @@ body {
       .homepage .lists .cell-project-j {
         background: #111923 url("images/project11.png") center center/contain;
         box-shadow: rgba(0, 0, 0, 0.06) 0 8px 24px; }
+      .homepage .lists .cell-project-k {
+        background: #0e2857 url("images/project12.png") center center/contain;
+        box-shadow: rgba(0, 0, 0, 0.06) 0 8px 24px; }
 @keyframes my-move {
   0% {
     transform: translateY(0px); }
