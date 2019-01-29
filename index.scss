@@ -6,15 +6,14 @@ $color-gray-light: #9B9B9B;
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Comfortaa', 'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',sans-serif;
-  //font-family:-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',sans-serif;
+  font-family: Sans-serif  !important;
 }
 
 .to-top {
   display: inline-block;
   position: fixed;
   right: 20px;
-  bottom: 60px;
+  bottom: 20px;
   background: #000 url("images/up.png") no-repeat center center/60%;
   width: 60px;
   height: 60px;
@@ -260,7 +259,7 @@ body {
         cursor: pointer;
       }
       .name {
-        width: 96px;
+        width: 100%;
         display: inline-block;
         font-size: 14px;
         color: $color-gray-light;
@@ -368,8 +367,19 @@ body {
 
 @media only screen and (max-width: 800px){
   .homepage {
-    padding: 40px 16px;
+    background: #fbfbfb;
+    padding: 140px 16px 40px;
+    .mobile-head {
+      z-index: 100;
+      position: fixed;
+      width: 100%;
+      background: white;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+      left: 0;
+      top: 0;
+    }
     .page-title {
+      margin: 24px auto;
       .avatar {
         height: 40px;
         width: 288px;
@@ -402,40 +412,48 @@ body {
       }
     }
     .head {
-      //text-align: center;
-      //.link {
-      //  margin: 0 20px;
-      //}
-      margin-top: 0;
-      position: fixed;
-      bottom:0;
-      left:0;
       width: 100%;
       display: -webkit-flex;
       display: flex;
+      margin-top: 32px;
       height: 48px;
-      background: white;
-      z-index: 1000;
-      box-shadow: rgba(11, 24, 35, 0.05) 0 0 20px;
       .link {
+        font-size: medium;
         -webkit-flex: 1;
         flex: 1;
         text-align: center;
         line-height: 48px;
-        &-selected {
-          background: #000;
-          color: white;
-        }
+        color: #dddddd;
         &-selected:after {
-          display: none;
+          content: "";
+          height: 40px;
+          width: 40px;
+          border-radius: 20px;
+          background: rgba(0, 175, 23, 0.2);
+          position: absolute;
+          margin-top: 0;
+          left: 30%;
+          z-index: 99;
+        }
+        &-selected {
+          color: black;
         }
       }
     }
     .head:before {
       display: none;
     }
-    .about-me {
+    .message-content {
+      .sign {
+        text-align: center;
+      }
+    }
+  }
+  .about-me {
       .cell {
+        .name {
+          text-align: center;
+        }
         .info {
           display: inline-block;
           margin-top: 4px;
@@ -446,18 +464,8 @@ body {
             left: 50%;
           }
         }
-        .name {
-          width: 100%;
-          text-align: center;
-        }
       }
     }
-    .message-content {
-      .sign {
-        text-align: center;
-      }
-    }
-  }
   .template {
     padding: 40px 16px;
     .title {
@@ -575,3 +583,7 @@ body {
     }
   }
 }
+
+
+
+

@@ -1,13 +1,13 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Comfortaa', 'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',sans-serif; }
+  font-family: Sans-serif  !important; }
 
 .to-top {
   display: inline-block;
   position: fixed;
   right: 20px;
-  bottom: 60px;
+  bottom: 20px;
   background: #000 url("images/up.png") no-repeat center center/60%;
   width: 60px;
   height: 60px;
@@ -187,7 +187,7 @@ body {
       .homepage .about-me .cell .we-chat {
         cursor: pointer; }
       .homepage .about-me .cell .name {
-        width: 96px;
+        width: 100%;
         display: inline-block;
         font-size: 14px;
         color: #9B9B9B;
@@ -272,10 +272,21 @@ body {
 
 @media only screen and (max-width: 800px) {
   .homepage {
-    padding: 40px 16px; }
-    .homepage .page-title .avatar {
-      height: 40px;
-      width: 288px; }
+    background: #fbfbfb;
+    padding: 140px 16px 40px; }
+    .homepage .mobile-head {
+      z-index: 100;
+      position: fixed;
+      width: 100%;
+      background: white;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+      left: 0;
+      top: 0; }
+    .homepage .page-title {
+      margin: 24px auto; }
+      .homepage .page-title .avatar {
+        height: 40px;
+        width: 288px; }
     .homepage .title {
       text-align: center;
       font-size: 40px; }
@@ -297,42 +308,45 @@ body {
         font-size: small;
         text-align: center; }
     .homepage .head {
-      margin-top: 0;
-      position: fixed;
-      bottom: 0;
-      left: 0;
       width: 100%;
       display: -webkit-flex;
       display: flex;
-      height: 48px;
-      background: white;
-      z-index: 1000;
-      box-shadow: rgba(11, 24, 35, 0.05) 0 0 20px; }
+      margin-top: 32px;
+      height: 48px; }
       .homepage .head .link {
+        font-size: medium;
         -webkit-flex: 1;
         flex: 1;
         text-align: center;
-        line-height: 48px; }
-        .homepage .head .link-selected {
-          background: #000;
-          color: white; }
+        line-height: 48px;
+        color: #dddddd; }
         .homepage .head .link-selected:after {
-          display: none; }
+          content: "";
+          height: 40px;
+          width: 40px;
+          border-radius: 20px;
+          background: rgba(0, 175, 23, 0.2);
+          position: absolute;
+          margin-top: 0;
+          left: 30%;
+          z-index: 99; }
+        .homepage .head .link-selected {
+          color: black; }
     .homepage .head:before {
       display: none; }
-    .homepage .about-me .cell .info {
-      display: inline-block;
-      margin-top: 4px;
-      width: 100%;
-      text-align: center; }
-      .homepage .about-me .cell .info .code_image {
-        margin-left: -60px;
-        left: 50%; }
-    .homepage .about-me .cell .name {
-      width: 100%;
-      text-align: center; }
     .homepage .message-content .sign {
       text-align: center; }
+
+  .about-me .cell .name {
+    text-align: center; }
+  .about-me .cell .info {
+    display: inline-block;
+    margin-top: 4px;
+    width: 100%;
+    text-align: center; }
+    .about-me .cell .info .code_image {
+      margin-left: -60px;
+      left: 50%; }
 
   .template {
     padding: 40px 16px; }
