@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zixiao's</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="gitalk.css">
     <link rel="shortcut icon" href="images/smile.ico">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 </head>
 <body class="homepage">
 <div class="mobile-head">
@@ -26,7 +28,7 @@
         ヽ(✿ﾟ▽ﾟ)ノ    欢迎给我留言
     </div>
 </div>
-
+<div id="gitalk-container"></div>
 
 <div class="to-top" id="to_top"></div>
 
@@ -39,6 +41,18 @@
     function hide() {
         target.style.visibility = 'hidden';
     }
+
+    const gitalk = new Gitalk({
+        clientID: 'a29f967dab7c389ec3d5',
+        clientSecret: '6d11080c6e0c3c7b489e79feaf733d2be6999291',
+        repo: 'home',
+        owner: 'gitLuozixiao',
+        admin: ['gitLuozixiao'],
+        id: 'lzxblog',      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
 
 </script>
 
