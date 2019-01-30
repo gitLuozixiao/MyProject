@@ -380,7 +380,7 @@ body {
       background: white;
       box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
       left: 0;
-      top: 0;
+      top: -1px;
     }
     .page-title {
       margin: 24px auto;
@@ -588,6 +588,3 @@ body {
     }
   }
 }
-
-
-
