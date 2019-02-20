@@ -353,9 +353,9 @@ body {
       .note {
         padding: 10px 16px;
         font-size: 14px;
-        color: #333;
+        color: #666666;
         font-weight: 500;
-        background: #eeeeee;
+        background: #f8f8f8;
       }
     }
     .page {
@@ -367,6 +367,13 @@ body {
       }
     }
   }
+}
+
+.page-bottom {
+  font-size: small;
+  color: $color-gray-light;
+  text-align: center;
+  margin: 120px auto 0;
 }
 
 @media only screen and (max-width: 800px){
@@ -512,7 +519,7 @@ body {
   .homepage {
     padding: 80px;
     .title {
-      font-size: 60px;
+      font-size: 40px;
     }
     .lists {
       .cell {
@@ -566,25 +573,7 @@ body {
 }
 
 @media only screen and (min-width: 1800px) {
-  .homepage {
-    padding: 80px 240px;
-    .lists {
-      .cell {
-        width: 400px;
-        height: 300px;
-        margin-right: 56px;
-        margin-bottom: 56px;
-      }
-    }
-  }
-  .template {
-    padding: 80px 240px;
-    .lists {
-      .page {
-        img {
-          width: 1000px;
-        }
-      }
-    }
+  .homepage,.template {
+    padding: 80px 280px;
   }
 }

@@ -261,15 +261,21 @@ body {
       .template .lists .cell .note {
         padding: 10px 16px;
         font-size: 14px;
-        color: #333;
+        color: #666666;
         font-weight: 500;
-        background: #eeeeee; }
+        background: #f8f8f8; }
     .template .lists .page {
       width: 100%;
       margin-bottom: 80px; }
       .template .lists .page img {
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.03) 0 4px 24px; }
+
+.page-bottom {
+  font-size: small;
+  color: #9B9B9B;
+  text-align: center;
+  margin: 120px auto 0; }
 
 @media only screen and (max-width: 800px) {
   .homepage {
@@ -377,7 +383,7 @@ body {
   .homepage {
     padding: 80px; }
     .homepage .title {
-      font-size: 60px; }
+      font-size: 40px; }
     .homepage .lists .cell {
       width: 300px;
       height: 220px;
@@ -409,17 +415,7 @@ body {
     .template .part {
       font-size: 40px; } }
 @media only screen and (min-width: 1800px) {
-  .homepage {
-    padding: 80px 240px; }
-    .homepage .lists .cell {
-      width: 400px;
-      height: 300px;
-      margin-right: 56px;
-      margin-bottom: 56px; }
-
-  .template {
-    padding: 80px 240px; }
-    .template .lists .page img {
-      width: 1000px; } }
+  .homepage, .template {
+    padding: 80px 280px; } }
 
 /*# sourceMappingURL=index.css.map */
