@@ -28,7 +28,6 @@ body {
 }
 
 .homepage {
-  background-color: white;
   .page-title {
     margin: 40px auto;
     text-align: center;
@@ -83,7 +82,7 @@ body {
   }
   .title {
     margin-top: 80px;
-    color: #ddd;
+    color: $color-gray-light;
     font-weight: bold;
   }
   .lists {
@@ -134,7 +133,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.06) 0 8px 24px;
       }
       &-project-k {
-        background: #0e2857 url("images/project12.png") center center/contain;
+        background: #ffffff url("images/project12.png") center center/contain;
         box-shadow: rgba(0, 0, 0, 0.06) 0 8px 24px;
       }
     }
@@ -286,7 +285,6 @@ body {
 }
 
 .template {
-  background: #fff;
   color: $color-gray;
   .title {
     font-size: 40px;
@@ -324,9 +322,9 @@ body {
     }
   }
   .part {
-    color: #dddddd;
+    color: $color-gray-light;
     margin-top: 80px;
-    font-weight: normal;
+    font-weight: bold;
   }
   .lists {
     margin-top: 40px;
@@ -343,19 +341,12 @@ body {
       content: "";
     }
     .cell {
-      margin-bottom: 80px;
+      margin-bottom: 60px;
       width: 280px;
       img {
         width: 100%;
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.03) 0 4px 24px;
-      }
-      .note {
-        padding: 10px 16px;
-        font-size: 14px;
-        color: #666666;
-        font-weight: 500;
-        background: #f8f8f8;
       }
     }
     .page {
@@ -364,6 +355,25 @@ body {
       img {
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.03) 0 4px 24px;
+      }
+    }
+  }
+  .illustrations {
+    margin-top: 40px;
+    column-gap: 0;
+    .illustration {
+      box-sizing: border-box;
+      width: 320px;
+      margin-bottom: 16px;
+      img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+        width: 100%;
+        height: auto;
+        background: #eaeff6;
       }
     }
   }
@@ -376,10 +386,10 @@ body {
   margin: 120px auto 0;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
   .homepage {
     background: #fdfdfd;
-    padding: 140px 16px 40px;
+    padding: 140px 24px 40px;
     .mobile-head {
       z-index: 100;
       position: fixed;
@@ -398,7 +408,7 @@ body {
     }
     .title {
       text-align: center;
-      font-size: 40px;
+      font-size: 24px;
     }
     .lists {
       text-align: center;
@@ -461,25 +471,8 @@ body {
       }
     }
   }
-  .about-me {
-      .cell {
-        .name {
-          text-align: center;
-        }
-        .info {
-          display: inline-block;
-          margin-top: 4px;
-          width: 100%;
-          text-align: center;
-          .code_image {
-            margin-left: -60px;
-            left: 50%;
-          }
-        }
-      }
-    }
   .template {
-    padding: 40px 16px;
+    padding: 80px 24px 40px;
     .title {
       text-align: center;
     }
@@ -497,7 +490,7 @@ body {
     }
     .part {
       text-align: center;
-      font-size: 30px;
+      font-size: 24px;
     }
     .lists {
       justify-content: space-around;
@@ -512,14 +505,40 @@ body {
         }
       }
     }
+    .illustrations {
+      .illustration {
+        margin: 0 auto 40px;
+      }
+    }
+  }
+  .about-me {
+    .cell {
+      .name {
+        text-align: center;
+      }
+      .info {
+        display: inline-block;
+        margin-top: 4px;
+        width: 100%;
+        text-align: center;
+        .code_image {
+          margin-left: -60px;
+          left: 50%;
+        }
+      }
+    }
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
+  .template, .homepage {
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px 10px 40px;
+  }
   .homepage {
-    padding: 80px;
     .title {
-      font-size: 40px;
+      font-size: 32px;
     }
     .lists {
       .cell {
@@ -551,29 +570,35 @@ body {
     }
   }
   .template {
-    padding: 80px;
     .lists {
       margin-top: 80px;
       .cell{
-        margin-right: 80px;
-      }
-      img {
-        //border: solid 8px white;
+        margin-right: 60px;
       }
       .page {
         img {
-          width: 900px;
+          width: 100%;
         }
       }
     }
     .part {
-      font-size: 40px;
+      font-size: 32px;
+    }
+    .illustrations {
+      column-count: 2;
     }
   }
 }
 
-@media only screen and (min-width: 1800px) {
-  .homepage,.template {
-    padding: 80px 280px;
+@media only  screen and (min-width: 1400px){
+  .template, .homepage {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 10px 40px;
+  }
+  .template {
+    .illustrations {
+      column-count: 3;
+    }
   }
 }
