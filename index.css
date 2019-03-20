@@ -434,5 +434,155 @@ body {
 
   .template .illustrations {
     column-count: 3; } }
+@media only screen and (min-width: 860px) {
+  .works {
+    margin: 0 auto;
+    font-size: 0;
+    min-width: 800px; }
+    .works .description {
+      background: black;
+      background: -webkit-linear-gradient(-45deg, #333, black);
+      background: -o-linear-gradient(-45deg, #333, black);
+      background: -moz-linear-gradient(-45deg, #333, black);
+      background: linear-gradient(-45deg, 333, black);
+      display: inline-block;
+      height: 100%;
+      width: 30%;
+      overflow-y: auto;
+      vertical-align: top;
+      box-shadow: rgba(0, 0, 0, 0.1) 10px 0 10px; }
+      .works .description .title {
+        width: 80%;
+        margin: 120px auto 60px;
+        font-size: x-large;
+        font-weight: bolder;
+        color: white;
+        text-align: left; }
+      .works .description .download {
+        margin-top: 20px;
+        height: 40px;
+        width: 200px;
+        background: #24B040;
+        border-radius: 2px;
+        font-size: 16px;
+        color: white;
+        outline: none;
+        border: none; }
+      .works .description .download:hover {
+        background: #1f9637; }
+      .works .description .info {
+        width: 80%;
+        text-align: left;
+        font-size: small;
+        color: rgba(255, 255, 255, 0.6);
+        margin: 0 auto 12px; }
+      .works .description .brief {
+        width: 80%;
+        font-size: small;
+        line-height: 22px;
+        margin: 60px auto 0;
+        color: rgba(255, 255, 255, 0.8); }
+    .works .pages {
+      width: 70%;
+      height: 100%;
+      vertical-align: top;
+      overflow-y: auto;
+      display: inline-block;
+      background: #fafafa; }
+      .works .pages .title {
+        margin: 120px 0 10px 36px;
+        font-size: x-large;
+        color: #4a4a4a;
+        font-weight: bolder; }
+      .works .pages .screens {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; }
+        .works .pages .screens .screen {
+          width: 240px;
+          margin: 20px 0 20px 40px; }
+          .works .pages .screens .screen img {
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0 6px 12px;
+            width: 100%;
+            height: auto; }
+      .works .pages .tip {
+        font-size: small;
+        margin: 80px auto 40px;
+        color: #4a4a4a;
+        text-align: center; }
+      .works .pages .web-pages {
+        margin-left: 36px; }
+        .works .pages .web-pages .web-page {
+          width: 70%;
+          max-width: 800px; }
+          .works .pages .web-pages .web-page img {
+            width: 100%;
+            height: auto; }
+    .works .pages::-webkit-scrollbar, .works .description::-webkit-scrollbar {
+      width: 6px;
+      height: 1px; }
+    .works .pages::-webkit-scrollbar-thumb, .works .description::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      background: #535353; }
+    .works .pages::-webkit-scrollbar-track, .works .description::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+      border-radius: 10px;
+      background: transparent; } }
+@media only screen and (max-width: 860px) {
+  .works .description {
+    padding: 20px 20px 40px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.03) 0 4px 8px; }
+    .works .description .title {
+      font-size: x-large;
+      color: #4a4a4a;
+      text-align: center;
+      margin: 20px auto 40px;
+      font-weight: bolder; }
+    .works .description .info {
+      font-size: small;
+      color: #9B9B9B;
+      text-align: center;
+      margin: 8px auto; }
+      .works .description .info .download {
+        margin-top: 20px;
+        height: 40px;
+        width: 200px;
+        background: #24B040;
+        border-radius: 2px;
+        font-size: 16px;
+        color: white;
+        outline: none;
+        border: none; }
+    .works .description .brief {
+      width: 80%;
+      margin: 40px auto 0;
+      font-size: small;
+      color: #4a4a4a; }
+  .works .pages {
+    padding: 20px 0 40px;
+    background: #fafafa; }
+    .works .pages .title {
+      text-align: center;
+      margin-top: 60px;
+      font-size: large;
+      font-weight: bolder; }
+    .works .pages .screens .screen {
+      width: 70%;
+      max-width: 240px;
+      margin: 20px auto 40px; }
+      .works .pages .screens .screen img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.03) 0 4px 8px; }
+    .works .pages .tip {
+      font-size: small;
+      color: #9B9B9B;
+      text-align: center;
+      margin-top: 40px; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,5 +9,7 @@ $(document).ready(function(){
     });
     $('.cell img').zoomify();
     $('.page img').zoomify();
+    $('.screen img').zoomify();
     $('.illustration img').zoomify();
+    $('.web-page img').zoomify();
 });

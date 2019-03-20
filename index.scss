@@ -602,3 +602,196 @@ body {
     }
   }
 }
+
+
+@media only  screen and (min-width: 860px){
+  .works {
+    margin: 0 auto;
+    font-size: 0;
+    min-width: 800px;
+    .description {
+      background: black;
+      background: -webkit-linear-gradient(-45deg, #333, black);
+      background: -o-linear-gradient(-45deg, #333, black);
+      background: -moz-linear-gradient(-45deg, #333, black);
+      background: linear-gradient(-45deg, 333, black);
+      display: inline-block;
+      height: 100%;
+      width: 30%;
+      overflow-y: auto;
+      vertical-align:top;
+      box-shadow: rgba(0, 0, 0, 0.1) 10px 0 10px;
+      .title {
+        width: 80%;
+        margin: 120px auto 60px;
+        font-size: x-large;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+      }
+      .download {
+        margin-top: 20px;
+        height: 40px;
+        width: 200px;
+        background: #24B040;
+        border-radius: 2px;
+        font-size: 16px;
+        color: white;
+        outline: none;
+        border: none;
+      }
+      .download:hover {
+        background: #1f9637;
+      }
+      .info {
+        width: 80%;
+        text-align: left;
+        font-size: small;
+        color: rgba(255, 255, 255, 0.6);
+        margin: 0 auto 12px;
+      }
+      .brief {
+        width: 80%;
+        font-size: small;
+        line-height: 22px;
+        margin: 60px auto 0;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .pages {
+      width: 70%;
+      height: 100%;
+      vertical-align:top;
+      overflow-y: auto;
+      display: inline-block;
+      background: $color-bg;
+      .title {
+        margin: 120px 0 10px 36px;
+        font-size: x-large;
+        color: $color-gray;
+        font-weight: bolder;
+      }
+      .screens {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .screen {
+          width: 240px;
+          margin: 20px 0 20px 40px;
+          img {
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0 6px 12px;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+      .tip {
+        font-size: small;
+        margin: 80px auto 40px;
+        color: $color-gray;
+        text-align: center;
+      }
+      .web-pages {
+        margin-left: 36px;
+        .web-page {
+          width: 70%;
+          max-width: 800px;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+    }
+    .pages::-webkit-scrollbar,.description::-webkit-scrollbar {
+      width: 6px;
+      height: 1px;
+    }
+    .pages::-webkit-scrollbar-thumb,.description::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      background: #535353;
+    }
+    .pages::-webkit-scrollbar-track,.description::-webkit-scrollbar-track{
+      -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+      border-radius: 10px;
+      background: transparent;
+    }
+  }
+}
+
+@media only screen and (max-width: 860px){
+  .works {
+    .description {
+      padding: 20px 20px 40px;
+      background: white;
+      box-shadow: rgba(0, 0, 0, 0.03) 0 4px 8px;
+      .title {
+        font-size: x-large;
+        color: $color-gray;
+        text-align: center;
+        margin: 20px auto 40px;
+        font-weight: bolder;
+      }
+      .info {
+        font-size: small;
+        color: $color-gray-light;
+        text-align: center;
+        margin: 8px auto;
+        .download {
+          margin-top: 20px;
+          height: 40px;
+          width: 200px;
+          background: #24B040;
+          border-radius: 2px;
+          font-size: 16px;
+          color: white;
+          outline: none;
+          border: none;
+        }
+      }
+      .brief {
+        width: 80%;
+        margin: 40px auto 0;
+        font-size: small;
+        color: $color-gray;
+      }
+    }
+    .pages {
+      padding: 20px 0 40px;
+      background: $color-bg;
+      .title {
+        text-align: center;
+        margin-top: 60px;
+        font-size: large;
+        font-weight: bolder;
+      }
+      .screens {
+        .screen {
+          width: 70%;
+          max-width: 240px;
+          margin: 20px auto 40px;
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.03) 0 4px 8px;
+          }
+        }
+      }
+      .tip {
+        font-size: small;
+        color: $color-gray-light;
+        text-align: center;
+        margin-top: 40px;
+      }
+    }
+  }
+ }
+
+
+
+

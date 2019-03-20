@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="zixiao,UI设计,UIDesign,作品集,graphic,罗子潇,插画,UX"/>
+    <meta name="description" content="zixiaoのchannel" />
+    <meta name="author" content="zixiao">
+    <meta name="copyright" content="本页版权归罗子潇所有 all rights reserved">
+    <meta http-equiv="window-target" content="_top">
+    <title>数据可视化/物联网</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/smile.ico">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/zoomify.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/smile.ico">
+</head>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/zoomify.js"></script>
+<script src="js/myJs.js"></script>
+
+<body>
+
+<div class="works" id="works">
+    <div class="description">
+        <div class="title">数据可视化/物联网</div>
+        <div class="info">时间：Middle-Later 2018</div>
+        <div class="info">工具：Sketch | AI | PS</div>
+        <div class="info">版权：北京易居未来科技有限公司</div>
+
+        <div class="brief">
+            产品介绍：<br><br>
+            这是一款智能社区软件，包含了小区住户社交、在线缴费、门禁功能。
+            与后台系统配合使用，提升小区业主与住户的生活质量。 <br> <br>
+            提供易居生活服务。物业服务更便捷：刷脸开门自助开通、在线缴费、报事报修。找邻交流有惊喜：在线串门好玩有好礼、发现小区老乡同好
+            小区资源大家用：共享物品、免费借用、社区高手共建友邻社区。 <br><br>
+            (ps:因为服务器限速，图片尽量压缩了，可能导致了一些色彩损失，部分颜色灰暗的界面实际更鲜艳些。）
+        </div>
+    </div>
+    <div class="pages">
+
+        <div class="title">☺ 大数据展示</div>
+        <div class="web-pages">
+            <div class="web-page"><img src="images/11/0.png" alt=""></div>
+        </div>
+
+        <div class="tip">    ᕕ( ᐛ )ᕗ 到这里就结束了哦~</div>
+    </div>
+</div>
+
+</body>
+
+<script>
+    var setPosition = function () {
+        var h=document.documentElement.clientHeight;
+        console.log(h);
+        document.getElementById("works").style.height = h + "px";
+    };
+
+    setPosition();
+
+    window.onresize = function () {
+        setPosition();
+    };
+
+    var download = function () {
+        var userAgentInfo = navigator.userAgent;
+        if (userAgentInfo.indexOf('iPhone') > -1){
+            window.open("https://itunes.apple.com/us/app/%E6%98%93%E5%B1%85%E7%94%9F%E6%B4%BB/id1435121143?l=zh&ls=1&mt=8");
+        }else {
+            window.open('http://appdetailh5.vivo.com.cn/detail/2370387?source=1');
+        }
+    };
+
+    var toTop = function () {
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            var html = document.getElementById("works").innerHTML;
+            document.getElementById("works").innerHTML = html + "<div class=\"to-top\" id=\"to_top\"></div>";
+        }
+    };
+
+    toTop();
+
+</script>
+
+</html>
