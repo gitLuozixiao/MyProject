@@ -19,7 +19,7 @@
 <div class="title">易居生活1.0</div>
 <div class="period">| Middle 2017 - Early 2018 |</div>
 <div class="download">
-    <button onclick="window.open('http://appdetailh5.vivo.com.cn/detail/2370387?source=1','_blank');">安卓下载</button>
+    <button onclick=download()>下载</button>
 </div>
 <div class="info">
     Tool：Sketch | AI <br>
@@ -85,4 +85,15 @@
 <div class="page-bottom">2019 © Zixiao Luo</div>
 
 </body>
+
+<script>
+    var download = function () {
+        var userAgentInfo = navigator.userAgent;
+        if (userAgentInfo.indexOf('iPhone') > -1){
+            window.open("https://itunes.apple.com/us/app/%E6%98%93%E5%B1%85%E7%94%9F%E6%B4%BB/id1435121143?l=zh&ls=1&mt=8");
+        }else {
+            window.open('http://appdetailh5.vivo.com.cn/detail/2370387?source=1');
+        }
+    };
+</script>
 </html>
