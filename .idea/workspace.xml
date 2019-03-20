@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="624d9115-85a0-4ac0-b941-993adbbaba93" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1/else-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/1/else-13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1/main-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/1/main-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myJs.js" afterDir="false" />
-    </list>
+    <list default="true" id="624d9115-85a0-4ac0-b941-993adbbaba93" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,7 +23,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -43,6 +42,15 @@
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -93,7 +101,6 @@
         <option value="$PROJECT_DIR$/js/zoomify.js" />
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/template_1.html" />
         <option value="$PROJECT_DIR$/template_12.html" />
         <option value="$PROJECT_DIR$/template_3.html" />
         <option value="$PROJECT_DIR$/template_5.html" />
@@ -112,6 +119,7 @@
         <option value="$PROJECT_DIR$/js/myJs.js" />
         <option value="$PROJECT_DIR$/css/zoomify.css" />
         <option value="$PROJECT_DIR$/css/zoomify.min.css" />
+        <option value="$PROJECT_DIR$/template_1.html" />
       </list>
     </option>
   </component>
@@ -142,11 +150,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="Blog" type="cbb8eebc:String" user="Blog" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Blog" type="cbb8eebc:String" user="Blog" />
-              <item name="css" type="cbb8eebc:String" user="css" />
             </path>
           </expand>
           <select />
@@ -308,12 +311,12 @@
       <workItem from="1550645287009" duration="1292000" />
       <workItem from="1550647100451" duration="611000" />
       <workItem from="1552982005496" duration="8627000" />
-      <workItem from="1553045333919" duration="6730000" />
+      <workItem from="1553045333919" duration="6931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117713000" />
+    <option name="totallyTimeSpent" value="117914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2048" y="-398" width="2048" height="1129" extended-state="6" />
@@ -488,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/template_9.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="21" column="89" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -580,19 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
-          <folding>
-            <element signature="e#4573#4723#0" />
-            <element signature="e#4993#5040#0" />
-            <element signature="e#4777#4793#0" />
-            <element signature="e#5171#5423#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/zoomify.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -640,6 +623,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -649,6 +639,13 @@
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
