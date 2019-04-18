@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="624d9115-85a0-4ac0-b941-993adbbaba93" name="Default" comment="" />
+    <list default="true" id="624d9115-85a0-4ac0-b941-993adbbaba93" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/template_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tencent9045232416924928983.txt" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,49 +19,85 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template_10.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template_10.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="178" selection-start-line="178" selection-end-line="178" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+                  <folding>
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="926">
+                  <caret line="797" selection-start-line="797" selection-end-line="797" />
+                  <folding>
+                    <element signature="e#77#300#0" />
+                    <element signature="e#307#337#0" />
+                    <element signature="e#347#614#0" />
+                    <element signature="e#979#1500#0" />
+                    <element signature="e#1516#1657#0" />
+                    <element signature="e#1667#1747#0" />
+                    <element signature="e#1757#4272#0" />
+                    <element signature="e#4282#5744#0" />
+                    <element signature="e#5757#6652#0" />
+                    <element signature="e#6672#6794#0" />
+                    <element signature="e#6808#8580#0" />
+                    <element signature="e#6841#6915#0" />
+                    <element signature="e#6926#7033#0" />
+                    <element signature="e#7042#7113#0" />
+                    <element signature="e#7124#7219#0" />
+                    <element signature="e#7467#7547#0" />
+                    <element signature="e#7557#8180#0" />
+                    <element signature="e#7669#7838#0" />
+                    <element signature="e#7849#8018#0" />
+                    <element signature="e#8029#8176#0" />
+                    <element signature="e#8595#8692#0" />
+                    <element signature="e#8736#11339#0" />
+                    <element signature="e#9014#9114#0" />
+                    <element signature="e#9126#9182#0" />
+                    <element signature="e#9194#9347#0" />
+                    <element signature="e#9359#9586#0" />
+                    <element signature="e#9597#10251#0" />
+                    <element signature="e#10269#10297#0" />
+                    <element signature="e#10319#10376#0" />
+                    <element signature="e#10435#10468#0" />
+                    <element signature="e#10481#10514#0" />
+                    <element signature="e#10525#10558#0" />
+                    <element signature="e#10571#10604#0" />
+                    <element signature="e#10663#10719#0" />
+                    <element signature="e#10731#10951#0" />
+                    <element signature="e#11054#11337#0" />
+                    <element signature="e#11384#12332#0" />
+                    <element signature="e#12073#12330#0" />
+                    <element signature="e#12086#12235#0" />
+                    <element signature="e#12246#12276#0" />
+                    <element signature="e#12377#12545#0" />
+                    <element signature="e#12488#12543#0" />
+                    <element signature="e#12590#15488#0" />
+                    <element signature="e#15531#17023#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,11 +157,11 @@
         <option value="$PROJECT_DIR$/template_10.html" />
         <option value="$PROJECT_DIR$/app_1.html" />
         <option value="$PROJECT_DIR$/web_1.html" />
-        <option value="$PROJECT_DIR$/index.scss" />
         <option value="$PROJECT_DIR$/js/myJs.js" />
         <option value="$PROJECT_DIR$/css/zoomify.css" />
         <option value="$PROJECT_DIR$/css/zoomify.min.css" />
         <option value="$PROJECT_DIR$/template_1.html" />
+        <option value="$PROJECT_DIR$/index.scss" />
       </list>
     </option>
   </component>
@@ -132,11 +174,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-2048" />
-    <option name="y" value="-398" />
+    <option name="y" value="-399" />
     <option name="width" value="2048" />
-    <option name="height" value="1129" />
+    <option name="height" value="1130" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -312,14 +354,15 @@
       <workItem from="1550647100451" duration="611000" />
       <workItem from="1552982005496" duration="8627000" />
       <workItem from="1553045333919" duration="6931000" />
+      <workItem from="1555575292099" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117914000" />
+    <option name="totallyTimeSpent" value="118526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2048" y="-398" width="2048" height="1129" extended-state="6" />
+    <frame x="-2048" y="-399" width="2048" height="1130" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12530833" />
@@ -491,16 +534,77 @@
     <entry file="file://$PROJECT_DIR$/template_9.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zoomify.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zoomify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zoomify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="181" selection-start-line="181" selection-end-line="181" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="701" column="24" lean-forward="true" selection-start-line="701" selection-start-column="24" selection-end-line="701" selection-end-column="24" />
+        <state relative-caret-position="926">
+          <caret line="797" selection-start-line="797" selection-end-line="797" />
           <folding>
             <element signature="e#77#300#0" />
             <element signature="e#307#337#0" />
             <element signature="e#347#614#0" />
-            <element signature="e#626#6796#0" />
-            <element signature="e#642#970#0" />
             <element signature="e#979#1500#0" />
             <element signature="e#1516#1657#0" />
             <element signature="e#1667#1747#0" />
@@ -540,112 +644,21 @@
             <element signature="e#12246#12276#0" />
             <element signature="e#12377#12545#0" />
             <element signature="e#12488#12543#0" />
-            <element signature="e#12672#13831#0" />
-            <element signature="e#13094#13247#0" />
-            <element signature="e#13262#13470#0" />
-            <element signature="e#13491#13525#0" />
-            <element signature="e#13536#13675#0" />
-            <element signature="e#13687#13827#0" />
-            <element signature="e#13988#14107#0" />
-            <element signature="e#14121#14471#0" />
-            <element signature="e#14245#14465#0" />
-            <element signature="e#14481#14594#0" />
-            <element signature="e#14659#14697#0" />
-            <element signature="e#14770#14880#0" />
-            <element signature="e#14952#15064#0" />
-            <element signature="e#15279#15286#0" />
-            <element signature="e#15309#15323#0" />
-            <element signature="e#15631#15653#0" />
-            <element signature="e#15577#15591#0" />
-            <element signature="e#16079#16097#0" />
-            <element signature="e#16581#16599#0" />
+            <element signature="e#12590#15488#0" />
+            <element signature="e#15531#17023#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#4500#4650#0" />
-            <element signature="e#4707#4737#0" />
-            <element signature="e#4775#5116#0" />
-            <element signature="e#5147#5448#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/zoomify.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template_11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/myJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/zoomify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/zoomify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template_10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="178" selection-start-line="178" selection-end-line="178" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="544">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
